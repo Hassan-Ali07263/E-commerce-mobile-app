@@ -1,0 +1,53 @@
+import { StyleSheet } from "react-native";
+import { COLORS, FONTS } from "../../enums/styleEnums";
+
+export const styles=StyleSheet.create({
+    container:{
+        flex:1,
+        backgroundColor:COLORS.green,
+        paddingHorizontal:"5%"
+    },
+    buttonTextStyle:{
+        fontFamily:FONTS.semibold,
+        fontSize:16,
+        color:COLORS.white
+    },
+    buttonStyle:{
+        width:"60%",
+        borderRadius:10,
+        backgroundColor:COLORS.blue,
+        alignSelf:"center",
+        marginTop:"10%"
+    },
+    enterPhoneText:{
+        fontFamily:FONTS.medium,
+        fontSize:17,
+        color:COLORS.black,
+        marginVertical:"5%"
+    },
+    otpVerificationText:{
+        fontFamily:FONTS.bold,
+        fontSize:18,
+        color:COLORS.black,
+        marginVertical:"10%",
+        alignSelf:"center"
+    },
+    textInputStyle:{
+        fontFamily:FONTS.medium,
+        fontSize:15,
+        color:COLORS.black,
+        height:55
+    },
+    textContainerStyle:{
+        backgroundColor:COLORS.white,
+        borderRadius:10,
+        color:COLORS.black
+    },
+    containerStyle:{
+        height:50,
+        width:"100%",
+        borderRadius:10,
+        color:COLORS.black,
+        marginVertical:"5%"
+    }
+})
